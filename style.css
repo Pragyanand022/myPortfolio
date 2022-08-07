@@ -525,7 +525,8 @@ footer {
 
 footer span {
     font-size: 2.5rem;
-    margin-right: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
     color: var(--primarycolor);
 }
 
@@ -622,8 +623,11 @@ footer span:hover {
 
 @media (max-width:400px) {
 
-    header {
+    header{
         width: 100vw;
+    }
+    .navbar ul li a{
+        width: 100%;
     }
 
     .heading {
