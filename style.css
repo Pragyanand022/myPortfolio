@@ -402,7 +402,7 @@ svg {
 
 @keyframes animate1 {
     100% {
-        stroke-dashoffset: 140;
+        stroke-dashoffset: 200;
     }
 }
 @keyframes animate2 {
