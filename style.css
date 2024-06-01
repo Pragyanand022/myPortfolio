@@ -191,6 +191,8 @@ header .navbar ul li a:hover {
 .about .photo {
     display: flex;
     justify-content: center;
+    background-size: cover;
+    overflow: hidden;
     margin: 4rem auto;
 }
 
