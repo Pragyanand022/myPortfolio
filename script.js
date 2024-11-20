@@ -21,7 +21,7 @@ setInterval(()=>{
 let number2=document.getElementById("number2");
 let counter2=0;
 setInterval(()=>{
-    if (counter2 == 55) {
+    if (counter2 == 75) {
         clearInterval();        
     } else {
         counter2 +=1;
@@ -32,7 +32,7 @@ setInterval(()=>{
 let number3=document.getElementById("number3");
 let counter3=0;
 setInterval(()=>{
-    if (counter3 == 60) {
+    if (counter3 == 80) {
         clearInterval();        
     } else {
         counter3 +=1;
