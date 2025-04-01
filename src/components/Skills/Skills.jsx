@@ -40,7 +40,7 @@ const SkillsSlider = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -82,7 +82,7 @@ const SkillsSlider = () => {
                 <img src={skill.image} alt={skill.name} className="skill-image" />
                 <h3 className="skill-name">{skill.name}</h3>
               </div>
-              {hoveredSkill === skill.name && (
+              {(hoveredSkill === skill.name || window.innerWidth <= 768) && (
                 <div className="skill-level">
                   <div
                     className="skill-level-bar"
