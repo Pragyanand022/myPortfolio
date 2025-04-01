@@ -19,6 +19,15 @@ window.addEventListener("scroll", function () {
 	}
 });
 
+document.addEventListener(
+	"touchend",
+	(event) => {
+	  event.stopImmediatePropagation(); // Stops all other `touchend` listeners
+	},
+	true // Capture phase
+  );
+  
+
 function App() {
 	const [openModal, setOpenModal] = useState({ state: false, project: null });
 	const [isMenuOpen, setMenuOpen] = useState(false);

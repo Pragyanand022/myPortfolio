@@ -41,26 +41,7 @@ const BackgroundAnimation = () => {
     };
   }, []);
 
-  useEffect(() => {
-    const background = document.querySelector(".background-animation");
-
-    const disableTouch = (e) => {
-      e.preventDefault(); // Prevents background from capturing touch
-      e.stopPropagation(); // Stops bubbling up the event
-    };
-
-    if (background) {
-      background.addEventListener("touchstart", disableTouch, { passive: false });
-      background.addEventListener("touchmove", disableTouch, { passive: false });
-    }
-
-    return () => {
-      if (background) {
-        background.removeEventListener("touchstart", disableTouch);
-        background.removeEventListener("touchmove", disableTouch);
-      }
-    };
-  }, []);
+  
 
   return <div className="background_animation" style={{ position: "absolute", width: "100%", height: "100vh" }}></div>;
 };
