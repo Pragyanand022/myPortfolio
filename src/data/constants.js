@@ -18,7 +18,7 @@ export const Bio = {
       description:
         "Welcome to MyEstate, a dynamic real estate platform built using the MERN stack, designed to streamline property listing, searching, and filtering. Whether you're a property owner looking to sell or rent, or a buyer/renter searching for your next perfect home, MyEstate provides a seamless experience with advanced features like OAuth, JWT authentication, and state management using Context API and Redux.",
       image:
-        "https://drive.google.com/file/d/1DFSnOqGSR50q52uiQUKsa3kQZnK06Ia4",
+        "https://res.cloudinary.com/dqhwr9mpf/image/upload/v1743528010/myEstates_hppwgh.png",
       tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
       category: "web app",
       github: "https://github.com/Pragyanand022/MyEstate",
@@ -31,7 +31,7 @@ export const Bio = {
       description:
         "Family Travel Tracker is a web application designed to help families create a happy memory of the countries they have been to.",
       image:
-        "https://drive.google.com/file/d/1VKZN3jhI1qxlqmzCXrLNBh4em3Si9nyX",
+        "https://res.cloudinary.com/dqhwr9mpf/image/upload/v1743528009/family-travel-tracker_sriwpb.png",
       tags: [
         "EJS",
         "PostgreSQL",
@@ -50,7 +50,7 @@ export const Bio = {
       description:
         "Keeper is a simple and intuitive note-making application designed to help users efficiently organize their thoughts and tasks.",
       image:
-        "https://drive.google.com/file/d/1cvWoloUrHXh5hpK97iPTrC36_k_nk5Bz",
+        "https://res.cloudinary.com/dqhwr9mpf/image/upload/v1743528009/keeper_gladvw.png",
       tags: ["React"],
       category: "web app",
       github: "https://github.com/Pragyanand022/Keeper",
@@ -65,7 +65,7 @@ export const Bio = {
       description:
         "MovieManiac is a feature-rich movie discovery app built using React Native and Appwrite, designed to provide users with a seamless experience in exploring, searching, and managing their favorite movies.",
       image:
-        "https://drive.google.com/file/d/172fruKdyMyHgmo8Z2YWVBpwxYcVyqP42",
+        "https://res.cloudinary.com/dqhwr9mpf/image/upload/v1743527871/movieManiac2_os3oqe.jpg",
       tags: ["React Native", "Node.js", "Appwrite"],
       category: "android app",
       github: "https://github.com/Pragyanand022/MovieManiac",
@@ -78,7 +78,7 @@ export const Bio = {
       description:
         "CleanBox is a machine learning-based spam detection app built using Jupyter Notebook. It leverages NLP and classification algorithms to accurately distinguish between spam and legitimate messages, ensuring a clutter-free inbox.",
       image:
-        "https://drive.google.com/file/d/1oB1eYqDvfOOYbmFlOh7lEKGythluMNTR",
+        "https://res.cloudinary.com/dqhwr9mpf/image/upload/v1743528008/cleanBox_iz4hma.png",
       tags: ["Python", "Jupyter Notebook"],
       category: "machine learning",
       github: "https://github.com/Pragyanand022/CleanBox",
