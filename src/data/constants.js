@@ -12,7 +12,20 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 0,
+      id: 1,
+      title: "Coderoom",
+      date: "Mar 2025 - Ongoing",
+      description:
+        "A real-time collaborative coding platform where you can code together, chat, and review code — all in one place! Built with the MERN Stack, powered by Socket.IO for real-time communication, and styled with Tailwind CSS for a sleek UI. Code smarter. Review better. Together.",
+      image:
+        "https://res.cloudinary.com/dqhwr9mpf/image/upload/v1744414676/Screenshot_390_wlgdfe.png",
+      tags: ["React Js", "Node Js", "Express Js", "Socket.io", "TailwindCSS"],
+      category: "web app",
+      github: "https://github.com/Pragyanand022/CodeRoom/",
+      webapp: "https://github.com/Pragyanand022/CodeRoom/",
+    },
+    {
+      id: 10,
       title: "MyEstates",
       date: "Nov 2023 - Jan 2024",
       description:
@@ -25,7 +38,7 @@ export const Bio = {
       webapp: "https://myestate-838v.onrender.com/",
     },
     {
-      id: 1,
+      id: 11,
       title: "Family Travel Tracker",
       date: "Jan 2025 - Present",
       description:
@@ -44,7 +57,7 @@ export const Bio = {
       webapp: "https://family-travel-tracker-sn4i.onrender.com/",
     },
     {
-      id: 2,
+      id: 12,
       title: "Keeper",
       date: "Jan 2024",
       description:
@@ -59,7 +72,7 @@ export const Bio = {
     },
     
     {
-      id: 3,
+      id: 13,
       title: "MovieManiac",
       date: "Dec 2024 - Present",
       description:
@@ -72,7 +85,7 @@ export const Bio = {
       webapp: "https://github.com/Pragyanand022/MovieManiac",
     },
     {
-      id: 8,
+      id: 18,
       title: "CleanBox",
       date: "Dec 2024 - Jan 2025",
       description:
