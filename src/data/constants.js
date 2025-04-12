@@ -22,7 +22,7 @@ export const Bio = {
       tags: ["React Js", "Node Js", "Express Js", "Socket.io", "TailwindCSS"],
       category: "web app",
       github: "https://github.com/Pragyanand022/CodeRoom/",
-      webapp: "https://github.com/Pragyanand022/CodeRoom/",
+      webapp: "https://coderoom-five.vercel.app/",
     },
     {
       id: 10,
